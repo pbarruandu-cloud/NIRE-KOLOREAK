@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Rounded background -->
+  <rect width="512" height="512" rx="96" fill="#f74c6f"/>
+  <!-- Subtle inner glow -->
+  <rect width="512" height="512" rx="96" fill="url(#bg-grad)" opacity="0.45"/>
+  <defs>
+    <radialGradient id="bg-grad" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#c81a46" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Palette body (white, slightly tilted) -->
+  <g transform="rotate(-8, 256, 256)">
+    <ellipse cx="250" cy="262" rx="148" ry="128" fill="white" opacity="0.97"/>
+    <!-- Thumb hole -->
+    <circle cx="312" cy="298" r="34" fill="#f74c6f"/>
+  </g>
+
+  <!-- Paint color dots (inside palette) -->
+  <circle cx="168" cy="220" r="26" fill="#ef4444"/>
+  <circle cx="222" cy="178" r="26" fill="#fb923c"/>
+  <circle cx="284" cy="166" r="26" fill="#facc15"/>
+  <circle cx="338" cy="200" r="26" fill="#4ade80"/>
+  <circle cx="356" cy="258" r="26" fill="#38bdf8"/>
+  <circle cx="190" cy="305" r="26" fill="#a78bfa"/>
+
+  <!-- Tiny white highlight on dots for depth -->
+  <circle cx="159" cy="212" r="8" fill="white" opacity="0.55"/>
+  <circle cx="213" cy="170" r="8" fill="white" opacity="0.55"/>
+  <circle cx="275" cy="158" r="8" fill="white" opacity="0.55"/>
+  <circle cx="329" cy="192" r="8" fill="white" opacity="0.55"/>
+  <circle cx="347" cy="250" r="8" fill="white" opacity="0.55"/>
+  <circle cx="181" cy="297" r="8" fill="white" opacity="0.55"/>
+</svg>

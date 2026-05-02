@@ -1,0 +1,48 @@
+Quiero crear una pequeña web app infantil en React para dibujar y colorear, pensada para un niño.
+
+La app debe tener un diseño visual alegre, limpio, colorido y fácil de usar, con botones grandes y aspecto infantil pero ordenado.
+
+Funciones principales:
+
+1. Pantalla de inicio
+- Mostrar el título del juego
+- Mostrar los puntos acumulados
+- Tener tres botones principales: "Crear dibujo", "Colorear dibujo" y "Mis dibujos"
+
+2. Modo crear dibujo
+- Un lienzo en blanco para dibujar libremente
+- Herramientas: pincel, goma de borrar, selector de color, grosor del pincel
+- Botón para deshacer el último trazo
+- Botón para borrar todo
+- Botón para guardar el dibujo localmente
+- Al guardar, sumar puntos
+
+3. Modo colorear dibujo
+- Una galería con dibujos sencillos en blanco y negro para colorear
+- Incluir al menos 6 dibujos SVG simples e infantiles: sol, casa, pez, flor, coche y dinosaurio
+- Cada dibujo debe tener zonas separadas para poder colorearlas con clic
+- Al seleccionar un color y pulsar en una zona del dibujo, esa zona debe rellenarse con el color elegido
+- Mantener el contorno negro visible
+- Botón para guardar el dibujo coloreado localmente
+- Al guardar, sumar puntos
+
+4. Mis dibujos
+- Mostrar una galería con los dibujos guardados por el usuario en almacenamiento local
+- Permitir verlos y borrarlos
+
+5. Sistema de puntos
+- Sumar puntos al guardar dibujos
+- Mostrar los puntos en la pantalla principal
+- Guardar los puntos en localStorage para que no se pierdan al recargar
+
+Requisitos técnicos:
+- Usar React
+- No usar backend ni base de datos por ahora
+- Guardar dibujos y puntos en localStorage
+- Organizar bien los componentes
+- Crear una estructura limpia y mantenible
+- Hacer que funcione tanto en ordenador como en tablet o móvil
+- Usar SVG en el modo colorear para que cada zona del dibujo se pueda rellenar fácilmente
+- Separar claramente la lógica del modo crear y del modo colorear
+
+Quiero una primera versión funcional y bien organizada, sin funciones avanzadas todavía como cuentas de usuario o juego online.
