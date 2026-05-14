@@ -6,6 +6,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import Home from "@/pages/Home";
 import DrawMode from "@/pages/DrawMode";
 import MyDrawings from "@/pages/MyDrawings";
+import PhotoDecorateMode from "@/pages/PhotoDecorateMode";
 import NotFound from "@/pages/not-found";
 
 const queryClient = new QueryClient();
@@ -18,6 +19,7 @@ function AnimatedRouter() {
         <Route path="/" component={Home} />
         <Route path="/draw" component={DrawMode} />
         <Route path="/my-drawings" component={MyDrawings} />
+        <Route path="/photo-decorate" component={PhotoDecorateMode} />
         <Route component={NotFound} />
       </Switch>
     </AnimatePresence>

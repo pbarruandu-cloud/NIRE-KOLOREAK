@@ -14,6 +14,16 @@ const NAV_BUTTONS = [
     shadow: "0 8px 28px rgba(212,32,80,.32)",
     testId: "button-create-drawing",
   },
+
+  {
+    path: "/photo-decorate",
+    icon: "📸",
+    label: "Argazkia apaindu",
+    sub: "Decorar foto",
+    gradient: "linear-gradient(145deg, #8b5cf6, #0ea5e9)",
+    shadow: "0 8px 28px rgba(14,165,233,.30)",
+    testId: "button-photo-decorate",
+  },
   {
     path: "/my-drawings",
     icon: "🖼️",
@@ -152,7 +162,7 @@ export default function Home() {
 
         {/* Navigation — two large cards */}
         <motion.nav
-          className="flex flex-col sm:flex-row gap-5 w-full max-w-sm sm:max-w-lg relative z-10 px-2"
+          className="grid grid-cols-1 sm:grid-cols-3 gap-5 w-full max-w-sm sm:max-w-3xl relative z-10 px-2"
           variants={containerVariants}
           initial="hidden"
           animate="visible"
